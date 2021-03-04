@@ -17,8 +17,8 @@ function Pokegame(props) {
 
     return (
         <div>
-            <Pokedex pokemon={hand1} exp={exp1} isWinner={exp1 > exp2} />
-            <Pokedex pokemon={hand2} exp={exp2} isWinner={exp2 > exp1} />
+            <Pokedex num={1} pokemon={hand1} exp={exp1} isWinner={exp1 > exp2} />
+            <Pokedex num={2} pokemon={hand2} exp={exp2} isWinner={exp2 > exp1} />
         </div>
     );
 }
